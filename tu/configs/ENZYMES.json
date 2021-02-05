@@ -1,0 +1,22 @@
+{
+  "dataset_name": "ENZYMES",
+  "num_workers": 4,
+  "hyperparams": {
+    "batch_size": 32,
+    "epochs": 501,
+    "learning_rate": 0.0005,
+    "step_size": 50,
+    "decay_rate": 0.75
+  },
+  "architecture": {
+    "layers": 2,
+    "hidden": 512,
+    "pooling": "add",
+    "JK": "cat",
+    "methods": "EB4",
+    "dropout": 0.5,
+    "variants": {
+      "BN": "Y"
+    }
+  }
+}

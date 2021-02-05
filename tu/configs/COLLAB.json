@@ -1,0 +1,22 @@
+{
+  "dataset_name": "COLLAB",
+  "num_workers": 4,
+  "hyperparams": {
+    "batch_size": 32,
+    "epochs": 301,
+    "learning_rate": 0.0005,
+    "step_size": 50,
+    "decay_rate": 0.75
+  },
+  "architecture": {
+    "layers": 3,
+    "hidden": 96,
+    "pooling": "add",
+    "JK": "cat",
+    "methods": "EB5",
+    "dropout": 0.5,
+    "variants": {
+      "BN": "Y"
+    }
+  }
+}

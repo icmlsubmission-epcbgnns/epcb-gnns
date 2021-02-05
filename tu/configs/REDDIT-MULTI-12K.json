@@ -1,0 +1,22 @@
+{
+  "dataset_name": "REDDIT-MULTI-12K",
+  "num_workers": 4,
+  "hyperparams": {
+    "batch_size": 64,
+    "epochs": 301,
+    "learning_rate": 0.001,
+    "step_size": 10,
+    "decay_rate": 0.8
+  },
+  "architecture": {
+    "layers": 3,
+    "hidden": 256,
+    "pooling": "add",
+    "JK": "cat",
+    "methods": "EB4",
+    "dropout": 0.5,
+    "variants": {
+      "BN": "Y"
+    }
+  }
+}

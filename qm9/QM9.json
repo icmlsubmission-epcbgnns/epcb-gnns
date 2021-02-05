@@ -1,0 +1,23 @@
+{
+  "dataset_name": "QM9",
+  "target": 0,
+  "seed": 777,
+  "hyperparams": {
+    "batch_size": 64,
+    "epochs": 601,
+    "learning_rate": 0.0001,
+    "step_size": 30,
+    "decay_rate":0.85
+  },
+  "architecture": {
+    "layers": 4,
+    "hidden": 256,
+    "pooling": "add",
+    "JK": "cat",
+    "methods": "EB1",
+    "variants": {
+      "BN": "N",
+      "fea_activation": "ReLU"
+    }
+  }
+}
